@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 
 const e = React.createElement;
 
-class Ravi extends React.Component {
+class ButtonLike extends React.Component {
   constructor(props) {
     super(props);
     this.state = { liked: false };
@@ -27,4 +27,4 @@ class Ravi extends React.Component {
 
 //const domContainer = document.querySelector('#like_button_container');
 //ReactDOM.render(e(LikeButton), domContainer);
-export default Ravi;
+export default ButtonLike;
